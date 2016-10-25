@@ -10,6 +10,14 @@ package zoo;
  * @author Bruger
  */
 public class MainZoo {
+    Zoo Z = new Zoo();
+    
+    Z.add(new Lion("male",4,"grrr!"));
+    Z.add(new Bear("female",4,"wrooo"));
+    
+    Z.allAnimalsMakeSound();
+    Z.CountLegs();
+    Z.getNumberOfGender("male");
     
 
     /**
