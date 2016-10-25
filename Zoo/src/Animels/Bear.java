@@ -10,5 +10,6 @@ package Animels;
  * @author Bruger
  */
 public class Bear {
+    sut mig
     
 }
